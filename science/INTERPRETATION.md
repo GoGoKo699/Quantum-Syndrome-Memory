@@ -7,8 +7,8 @@ The result is specific enough to be testable. In the binary example the fixed-so
 | Assumption | Why it matters |
 | --- | --- |
 | Fixed iid finite **pure** record ensemble | The Gram-state decomposition gives both the product phase orbit and the one-copy helper frontier. |
-| Predetermined group homomorphism $A_n$ | Fourier pinching is a mixture of at most $\lvert\operatorname{im}A_n\rvert$ product character rotations. |
-| $\log_2\lvert\operatorname{im}A_n\rvert=o(n)$ | A sublinear sample learns the orbit on almost all coordinates; positive-rate advice is a different problem. |
+| Predetermined group homomorphism $A_n$ | Fourier pinching is a mixture of at most $\lvert\mathrm{im}A_n\rvert$ product character rotations. |
+| $\log_2\lvert\mathrm{im}A_n\rvert=o(n)$ | A sublinear sample learns the orbit on almost all coordinates; positive-rate advice is a different problem. |
 | Unlimited classical storage, hard quantum dimension | The theorem prices the persistent coherent register, not preprocessing gates, peak workspace, time, or classical computation. |
 | No uncounted entanglement across the cut | Such a system could carry coherent information across the same interface. |
 | Commuting phase errors for the channel corollary | Orthogonal phase-Bell labels give the exact channel relative-entropy expression. |

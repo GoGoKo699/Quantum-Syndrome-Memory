@@ -8,3 +8,5 @@ The question is whether a small amount of *early* classical information about er
 4. [Interpretation and boundaries](INTERPRETATION.md): where the temporal resource claim applies and what it leaves open.
 
 The [related-work map](../references/RELATED_WORK.md) distinguishes inherited tools from the proposed contribution. [Verification](../verification/README.md) records deterministic structural checks. The full arguments, rather than a separate manuscript file, live in the topic pages above.
+
+For a gradual conceptual route, see the [30-milestone map](../learning/MILESTONES.md) and its [Watrous bridge](../learning/WATROUS_BRIDGE.md). These point back to the topic pages for the actual statements and proofs.

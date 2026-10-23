@@ -4,7 +4,7 @@
 
 | Result | Scope | Reader route |
 | --- | --- | --- |
-| Homomorphism-advice rigidity | Fixed finite pure ensemble; iid labels in a finite abelian group; predetermined syndrome with $\log_2\lvert\operatorname{im}A_n\rvert=o(n)$ | [Theorem and proof](science/SYNDROME_RIGIDITY.md) |
+| Homomorphism-advice rigidity | Fixed finite pure ensemble; iid labels in a finite abelian group; predetermined syndrome with $\log_2\lvert\mathrm{im}A_n\rvert=o(n)$ | [Theorem and proof](science/SYNDROME_RIGIDITY.md) |
 | Quantitative binary bound | Binary prior $0<p<1$, fixed overlap $0<s<1$, rank $L$ checks; excess information $O_{p,s}(\sqrt{n(L+1)})$, uniformly over memory budgets | [Finite-block statement](science/SYNDROME_RIGIDITY.md#binary-finite-block-bound) |
 | Phase-channel consequence | Commuting phase errors with pure records; arbitrary data encoders and decoders; free early and late access to the stipulated syndrome | [Channel and code converse](science/PHASE_CHANNEL.md) |
 
@@ -19,6 +19,10 @@ The theorem concerns a **temporal interface**: the detector sees the quantum rec
 5. [Related work and attribution](references/RELATED_WORK.md)
 
 The [scientific map](science/README.md) connects the claims and proof dependencies. The helper/source-compression frontier, coherence properties and entropy inequalities used below are attributed to their sources. The proposed contribution is the stability theorem under sublinear homomorphism advice, with its quantitative binary and channel consequences. The [checks](verification/README.md) reproduce finite-dimensional structural identities and numerical examples; they do not replace the analytical proof.
+
+## Learn the result
+
+The [30 understanding milestones](learning/MILESTONES.md) progress through background and preliminaries (M01–M12), then the project’s argument and interpretation (M13–M30). They are a common map of the science, independent of any reader’s prior knowledge or progress. The single educational anchor is John Watrous’s *The Theory of Quantum Information* (2018); the [Watrous bridge](learning/WATROUS_BRIDGE.md) selects relevant chapters, translates notation, and identifies the steps supplied by this project. Specialists can go directly to the [theorem and proof](science/SYNDROME_RIGIDITY.md).
 
 ## Status and use
 
