@@ -134,7 +134,7 @@ This is a project-defined route for any reader. **M01–M12** build the backgrou
 
 ### M19 — Pay for the orbit size
 - **Central question:** When can all wrong candidates be controlled together?
-- **Understanding target:** Apply the $2^{\ell_n}$ union bound and integrated tail to obtain $\mathbb E D/n\le\min\{1,(\ell_n\ln2+1)/(k\kappa)\}$.
+- **Understanding target:** Apply the $2^{\ell_n}$ union bound and integrated tail to obtain $\mathbb E D/n\le\min\lbrace 1,(\ell_n\ln2+1)/(k\kappa)\rbrace $.
 - **Dependencies and story role:** M15, M18; turns a pairwise estimate into a global learning estimate.
 - **Conceptual connection:** The chosen sample size balances sacrificed sites against estimation error.
 - **Source pointers:** [sampling proof](../science/SYNDROME_RIGIDITY.md#learn-the-orbit-on-sacrificed-sites).

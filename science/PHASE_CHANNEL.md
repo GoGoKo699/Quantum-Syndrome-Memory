@@ -5,7 +5,7 @@
 For $n$ data qubits, let the classical phase-error string $X^n=x$ have product law $p_x$. A channel that passes the data and a possibly mixed processed record to the decoder has the form
 
 $$
-\mathcal T(\tau)=\sum_{x\in\{0,1\}^n}
+\mathcal T(\tau)=\sum_{x\in\lbrace 0,1\rbrace ^n}
 p_x Z^x\tau Z^x\otimes\omega_x.
 $$
 
@@ -21,10 +21,10 @@ The vectors $\Phi_x$ are orthogonal. Thus the coherent information of the maxima
 
 $$
 I(A\rangle BW)_{J_{\mathcal T}}
-=n-H(X^n)+\chi(\{p_x,\omega_x\}),
+=n-H(X^n)+\chi(\lbrace p_x,\omega_x\rbrace ),
 $$
 
-where $\chi(\{p_x,\omega_x\})=S(\bar\omega)-\sum_xp_xS(\omega_x)=I(X^n;W)$. In the detector model $W=HCQ$.
+where $\chi(\lbrace p_x,\omega_x\rbrace )=S(\bar\omega)-\sum_xp_xS(\omega_x)=I(X^n;W)$. In the detector model $W=HCQ$.
 
 ## Converse for arbitrary data codes
 
@@ -72,7 +72,7 @@ $$
 \end{aligned}}
 $$
 
-Here $a=2\sqrt{p(1-p)}s$, $C(a)=h_2((1+\sqrt{1-a^2})/2)$, $\kappa_a=1-\sqrt{1-a^2}$, and $B_\star=2s\,h_2(p)/(1-s)$. The bound holds for arbitrary data encoding, joint flag processing, and final decoding, with a hard $m$-qubit persistent record memory.
+Here $a=2\sqrt{p(1-p)}s$, $C(a)=h_2((1+\sqrt{1-a^2})/2)$, $\kappa_a=1-\sqrt{1-a^2}$, and $B_\star=2s h_2(p)/(1-s)$. The bound holds for arbitrary data encoding, joint flag processing, and final decoding, with a hard $m$-qubit persistent record memory.
 
 If $L=o(n)$, the correction is $o(n)$ uniformly in $m$. Ignoring the free syndrome and using the no-advice record-compression and channel coding protocol achieves the original asymptotic quantum-transmission versus memory curve. Therefore sublinear *predetermined linear* early checks do not change that curve.
 

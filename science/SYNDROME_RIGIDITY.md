@@ -2,7 +2,7 @@
 
 ## Theorem
 
-Fix a finite abelian label group $G$, an iid law $p$, and a finite pure-record ensemble $\mathcal E=\{p_x,|f_x\rangle\}_{x\in G}$. Before processing the records, the detector receives $H=A_nX^n$, where $A_n:G^n\to K_n$ is a predetermined group homomorphism and
+Fix a finite abelian label group $G$, an iid law $p$, and a finite pure-record ensemble $\mathcal E=\lbrace p_x,|f_x\rangle\rbrace _{x\in G}$. Before processing the records, the detector receives $H=A_nX^n$, where $A_n:G^n\to K_n$ is a predetermined group homomorphism and
 
 $$
 \ell_n=\log_2|\mathrm{im}A_n|=o(n).
@@ -47,7 +47,7 @@ Indeed, the average kills a matrix element $|x^n\rangle\langle x'^n|$ precisely 
 
 ## Learn the orbit on sacrificed sites
 
-Only the local state $\rho_b$ matters, so quotient characters by the stabilizer $K=\{b:\rho_b=\rho\}$. If the orbit has one element, $\rho$ is diagonal and there is no coherence to protect. Otherwise choose a fixed finite rank-one informationally complete POVM on the single-site Gram space. It gives distinct distributions $P_b$ on distinct orbit states. Since the orbit is finite, its least pairwise Hellinger separation is positive:
+Only the local state $\rho_b$ matters, so quotient characters by the stabilizer $K=\lbrace b:\rho_b=\rho\rbrace $. If the orbit has one element, $\rho$ is diagonal and there is no coherence to protect. Otherwise choose a fixed finite rank-one informationally complete POVM on the single-site Gram space. It gives distinct distributions $P_b$ on distinct orbit states. Since the orbit is finite, its least pairwise Hellinger separation is positive:
 
 $$
 \kappa=\min_{\rho_b\ne\rho_c}
@@ -65,13 +65,13 @@ There are at most $2^{\ell_n}$ competitors. A union bound, including likelihood 
 
 $$
 \Pr[D(v,\hat v)>\varepsilon n]
-\le\min\{1,2^{\ell_n}e^{-k\kappa\varepsilon}\}.
+\le\min\lbrace 1,2^{\ell_n}e^{-k\kappa\varepsilon}\rbrace .
 $$
 
-Integrating this tail gives, for $\eta_n=\min\{1,(\ell_n\ln2+1)/(k\kappa)\}$,
+Integrating this tail gives, for $\eta_n=\min\lbrace 1,(\ell_n\ln2+1)/(k\kappa)\rbrace $,
 
 $$
-\mathbb E\,D(v,\hat v)\le n\eta_n.
+\mathbb E[D(v,\hat v)]\le n\eta_n.
 $$
 
 The expectation includes the posterior average after the sampling transcript. Errors on unmeasured sites are no more numerous. The use of elementary symmetric means avoids a false independence assumption about sampling without replacement.
@@ -105,10 +105,10 @@ $$
 
 A destructive rank-one measurement has Kraus operators $|j\rangle\langle\phi_j|$, with at most one nonzero row, and so is incoherent. The sampled measurements, classical transcript, disposal of the sampled systems, and diagonal corrections $Z_{\hat v_i}^\dagger$ all qualify. No coherent storage is hidden in this proof operation.
 
-**Uniform local continuity.** At fixed one-letter dimension $d$, $J_t$ has a continuity modulus $\mu_d(u)\to0$ for half trace distance $u\to0$, *uniformly* in $t\in[0,1]$. To see this, choose nearby purifications by Uhlmann's theorem, apply to both the instrument realizing a nearly optimal mixed decomposition, and bound the resulting conditional entropies $S(\Delta R|C)-tS(R|C)$. The bounds depend on $\dim R=d$, not the number of outcomes; repeat in the opposite direction. A standard, deliberately loose choice is $2f_d(\min\{1,\sqrt{2u}\})$, capped at $\log_2d$, where
+**Uniform local continuity.** At fixed one-letter dimension $d$, $J_t$ has a continuity modulus $\mu_d(u)\to0$ for half trace distance $u\to0$, *uniformly* in $t\in[0,1]$. To see this, choose nearby purifications by Uhlmann's theorem, apply to both the instrument realizing a nearly optimal mixed decomposition, and bound the resulting conditional entropies $S(\Delta R|C)-tS(R|C)$. The bounds depend on $\dim R=d$, not the number of outcomes; repeat in the opposite direction. A standard, deliberately loose choice is $2f_d(\min\lbrace 1,\sqrt{2u}\rbrace )$, capped at $\log_2d$, where
 
 $$
-f_d(v)=2v\log_2d+(1+v)h_2\!\left(\frac{v}{1+v}\right).
+f_d(v)=2v\log_2d+(1+v)h_2\left(\frac{v}{1+v}\right).
 $$
 
 After estimating $v$, correct every unsampled site by $Z_{\hat v_i}^\dagger$. Its conditional marginal equals $\rho$ when the orbit symbol is correct. If $e_i$ is the posterior probability of an inequivalent estimate, its half trace distance from $\rho$ is at most $e_i$. Strong monotonicity, superadditivity, continuity, and Markov's inequality give
@@ -138,7 +138,7 @@ For $G=\mathbb Z_2$, let $0<p<1$, $0<s=|\langle f_0|f_1\rangle|<1$, and let the 
 
 $$
 a_{\max}=2\sqrt{p(1-p)},\quad a=a_{\max}s,\quad
-C(a)=h_2\!\left(\frac{1+\sqrt{1-a^2}}2\right),\quad
+C(a)=h_2\left(\frac{1+\sqrt{1-a^2}}2\right),\quad
 \kappa_a=1-\sqrt{1-a^2}.
 $$
 
@@ -146,14 +146,14 @@ The two local orbit states are $\rho_a=\begin{psmallmatrix}p&a/2\\a/2&1-p\end{ps
 
 $$
 \mathbb E[D/n]\le
-\min\left\{1,\frac{L\ln2+1}{k\kappa_a}\right\}.
+\min\left(1,\frac{L\ln2+1}{k\kappa_a}\right).
 $$
 
 At a fixed diagonal $p$, $x\mapsto J_t(\rho_x)$ is even and convex. The pure endpoint $x=a_{\max}$ has value $h_2(p)$, while $J_t\ge0$. A supporting slope at $a$ is therefore no greater than $h_2(p)/(a_{\max}-a)$, uniformly in $t$. Correcting with posterior phase-error probability $e$ loses at most $B_\star e$, where
 
 $$
-B_\star=\frac{2a\,h_2(p)}{a_{\max}-a}
-=\frac{2s\,h_2(p)}{1-s}.
+B_\star=\frac{2a h_2(p)}{a_{\max}-a}
+=\frac{2s h_2(p)}{1-s}.
 $$
 
 Consequently, **for every** $1\le k\le n$, every syndrome-controlled collective processor, and every $m\ge0$,
@@ -170,7 +170,7 @@ At $m=0$, the sharper coherence-of-formation tangent is available. Set
 
 $$
 B_a=2aC'(a),\qquad
-C'(a)=\frac{a\,\mathrm{atanh}\sqrt{1-a^2}}
+C'(a)=\frac{a \mathrm{atanh}\sqrt{1-a^2}}
 {\sqrt{1-a^2}\ln2},\qquad B_a\le\frac2{\ln2}.
 $$
 

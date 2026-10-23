@@ -47,7 +47,7 @@ $$
 The endpoint $J_0=C_f$ is coherence of formation: refining to pure components cannot increase average diagonal entropy. The endpoint $J_1=C_r=S(\Delta\rho)-S(\rho)$ is relative entropy of coherence, which is already convex. For a fixed single-copy ensemble,
 
 $$
-\max_{\mathrm{instruments}}\{I(X;C)+\eta I(X;Q|C)\}
+\max_{\mathrm{instruments}}\lbrace I(X;C)+\eta I(X;Q|C)\rbrace 
 =H(p)-J_\eta(\rho).
 $$
 
@@ -70,17 +70,17 @@ $$
 a=2\sqrt{p(1-p)}s,\qquad
 \rho=\begin{pmatrix}p&a/2\\a/2&1-p\end{pmatrix},
 \qquad
-C(a)=h_2\!\left(\frac{1+\sqrt{1-a^2}}2\right).
+C(a)=h_2\left(\frac{1+\sqrt{1-a^2}}2\right).
 $$
 
-Then $I_{\rm acc}=h_2(p)-C(a)$. The average-record Holevo information is $\chi=S(\rho)$; for an irreducible nonorthogonal binary pair, full information needs $M=\chi$. A convenient parameterization of the inherited binary frontier uses $b=2p-1$, $a=2\sqrt{p(1-p)}s$, and $H_*(z)=h_2((1+z)/2)$. For $d\in[|b|,\sqrt{1-a^2}]$,
+Then $I_{\rm acc}=h_2(p)-C(a)$. The average-record Holevo information is $\chi=S(\rho)$; for an irreducible nonorthogonal binary pair, full information needs $M=\chi$. A convenient parameterization of the inherited binary frontier uses $b=2p-1$, $a=2\sqrt{p(1-p)}s$, and $H_{\ast}(z)=h_2((1+z)/2)$. For $d\in[|b|,\sqrt{1-a^2}]$,
 
 $$
-M(d)=H_*\!\left(\sqrt{a^2+d^2}\right),\qquad
-G_{\mathcal E}(M(d))=M(d)+1-H_*(d)-[1-h_2(p)].
+M(d)=H_{\ast}\left(\sqrt{a^2+d^2}\right),\qquad
+G_{\mathcal E}(M(d))=M(d)+1-H_{\ast}(d)-[1-h_2(p)].
 $$
 
-Equivalently, the flagged phase-channel rate at that memory is $R(d)=M(d)+1-H_*(d)$. At $M=0$, $G=I_{\rm acc}$; at $M=\chi$, $G=\chi$. This evaluation uses an inherited binary entropy concavity inequality (see [attribution](../references/RELATED_WORK.md)); it is not claimed as a new universal frontier.
+Equivalently, the flagged phase-channel rate at that memory is $R(d)=M(d)+1-H_{\ast}(d)$. At $M=0$, $G=I_{\rm acc}$; at $M=\chi$, $G=\chi$. This evaluation uses an inherited binary entropy concavity inequality (see [attribution](../references/RELATED_WORK.md)); it is not claimed as a new universal frontier.
 
 ### Proof dependencies
 
