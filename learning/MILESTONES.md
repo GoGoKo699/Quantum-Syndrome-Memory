@@ -62,7 +62,7 @@ This is a project-defined route for any reader. **M01–M12** build the backgrou
 
 ### M09 — Group syndromes and characters
 - **Central question:** What special structure does a predetermined homomorphism retain?
-- **Understanding target:** Explain $A_n:G^n\to K_n$, its kernel, image, annihilator and character orthogonality; count $|\operatorname{im}A_n|=2^{\ell_n}$.
+- **Understanding target:** Explain $A_n:G^n\to K_n$, its kernel, image, annihilator and character orthogonality; count $|\mathrm{im}A_n|=2^{\ell_n}$.
 - **Dependencies and story role:** M01, M08; introduces the algebra of the advice, not an arbitrary message.
 - **Conceptual connection:** Fibers of a homomorphism have a Fourier description that will make the conditional source tractable.
 - **Source pointers:** [Watrous bridge, missing steps](WATROUS_BRIDGE.md#steps-supplied-by-this-project); [twirl](../science/SYNDROME_RIGIDITY.md#syndrome-pinching-and-phase-twirling).

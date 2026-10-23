@@ -5,7 +5,7 @@
 Fix a finite abelian label group $G$, an iid law $p$, and a finite pure-record ensemble $\mathcal E=\{p_x,|f_x\rangle\}_{x\in G}$. Before processing the records, the detector receives $H=A_nX^n$, where $A_n:G^n\to K_n$ is a predetermined group homomorphism and
 
 $$
-\ell_n=\log_2|\operatorname{im}A_n|=o(n).
+\ell_n=\log_2|\mathrm{im}A_n|=o(n).
 $$
 
 The detector may apply an arbitrary $H$-controlled collective operation and retain unlimited classical data $C$ and a register $Q$ satisfying $\log_2\dim Q\le m_n$. Let $G_{\mathcal E}$ be the [no-advice frontier](MODEL_AND_FRONTIER.md). Uniformly in the memory budget for this *fixed* source,
@@ -36,7 +36,7 @@ $$
 
 The syndrome's information is included *once*: for any record processor, the relevant label–output information is $I(X^n;H,C,Q)$, and the pure-ensemble mixed-roof representation applies to $\sigma_n$.
 
-Let $V_n$ be the annihilator of $\ker A_n$ in the character group of $G^n$. Then $|V_n|=|\operatorname{im}A_n|$. For a character $b$ of $G$, let $Z_b$ be its diagonal unitary in the label basis and $\rho_b=Z_b\rho Z_b^\dagger$. Fourier orthogonality gives the exact identity
+Let $V_n$ be the annihilator of $\ker A_n$ in the character group of $G^n$. Then $|V_n|=|\mathrm{im}A_n|$. For a character $b$ of $G$, let $Z_b$ be its diagonal unitary in the label basis and $\rho_b=Z_b\rho Z_b^\dagger$. Fourier orthogonality gives the exact identity
 
 $$
 \boxed{\sigma_n=\frac1{|V_n|}\sum_{v\in V_n}
@@ -170,7 +170,7 @@ At $m=0$, the sharper coherence-of-formation tangent is available. Set
 
 $$
 B_a=2aC'(a),\qquad
-C'(a)=\frac{a\,\operatorname{atanh}\sqrt{1-a^2}}
+C'(a)=\frac{a\,\mathrm{atanh}\sqrt{1-a^2}}
 {\sqrt{1-a^2}\ln2},\qquad B_a\le\frac2{\ln2}.
 $$
 

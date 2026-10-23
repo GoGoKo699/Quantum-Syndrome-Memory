@@ -4,7 +4,7 @@
 
 | Result | Scope | Reader route |
 | --- | --- | --- |
-| Homomorphism-advice rigidity | Fixed finite pure ensemble; iid labels in a finite abelian group; predetermined syndrome with $\log_2\lvert\operatorname{im}A_n\rvert=o(n)$ | [Theorem and proof](science/SYNDROME_RIGIDITY.md) |
+| Homomorphism-advice rigidity | Fixed finite pure ensemble; iid labels in a finite abelian group; predetermined syndrome with $\log_2\lvert\mathrm{im}A_n\rvert=o(n)$ | [Theorem and proof](science/SYNDROME_RIGIDITY.md) |
 | Quantitative binary bound | Binary prior $0<p<1$, fixed overlap $0<s<1$, rank $L$ checks; excess information $O_{p,s}(\sqrt{n(L+1)})$, uniformly over memory budgets | [Finite-block statement](science/SYNDROME_RIGIDITY.md#binary-finite-block-bound) |
 | Phase-channel consequence | Commuting phase errors with pure records; arbitrary data encoders and decoders; free early and late access to the stipulated syndrome | [Channel and code converse](science/PHASE_CHANNEL.md) |
 
