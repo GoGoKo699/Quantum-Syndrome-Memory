@@ -20,6 +20,10 @@ The theorem concerns a **temporal interface**: the detector sees the quantum rec
 
 The [scientific map](science/README.md) connects the claims and proof dependencies. The helper/source-compression frontier, coherence properties and entropy inequalities used below are attributed to their sources. The proposed contribution is the stability theorem under sublinear homomorphism advice, with its quantitative binary and channel consequences. The [checks](verification/README.md) reproduce finite-dimensional structural identities and numerical examples; they do not replace the analytical proof.
 
+## Learn the result
+
+The [30 understanding milestones](learning/MILESTONES.md) progress through background and preliminaries (M01–M12), then the project’s argument and interpretation (M13–M30). They are a common map of the science, independent of any reader’s prior knowledge or progress. The single educational anchor is John Watrous’s *The Theory of Quantum Information* (2018); the [Watrous bridge](learning/WATROUS_BRIDGE.md) selects relevant chapters, translates notation, and identifies the steps supplied by this project. Specialists can go directly to the [theorem and proof](science/SYNDROME_RIGIDITY.md).
+
 ## Status and use
 
 This repository records an analytical research result at its stated assumptions. Its literature comparison is a focused primary-source screen, not an exhaustive priority certification. The model does not optimize arbitrary nonlinear or adaptive advice, mixed or correlated records, noncommuting errors, hardware thresholds, or peak circuit workspace.
