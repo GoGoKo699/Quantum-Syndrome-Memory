@@ -61,7 +61,7 @@ This capacity identity applies to commuting phase errors with the distinct ortho
 
 ## The memory and syndrome bound
 
-For the iid binary pure records of the [model](MODEL_AND_FRONTIER.md), an arbitrary rank-$L$ early linear syndrome is granted free to the detector *and again* to the final decoder. Its Gram-state twirl obeys the [finite-block rigidity theorem](SYNDROME_RIGIDITY.md#binary-finite-block-bound). Inserting it into the code converse, for every $1\le k\le n$,
+For the iid binary pure records of the [model](MODEL_AND_FRONTIER.md), an arbitrary early linear syndrome of rank $L$ is granted free to the detector *and again* to the final decoder. Its Gram-state twirl obeys the [finite-block rigidity theorem](SYNDROME_RIGIDITY.md#binary-finite-block-bound). Inserting it into the code converse, for every $1\le k\le n$,
 
 $$
 \boxed{\begin{aligned}

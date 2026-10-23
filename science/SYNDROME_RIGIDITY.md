@@ -142,7 +142,7 @@ C(a)=h_2\left(\frac{1+\sqrt{1-a^2}}2\right),\quad
 \kappa_a=1-\sqrt{1-a^2}.
 $$
 
-The two local orbit states are $\rho_a=\begin{psmallmatrix}p&a/2\\a/2&1-p\end{psmallmatrix}$ and $Z\rho_aZ=\rho_{-a}$. An $X$-basis measurement reads their phase through a binary symmetric channel with success probability $(1+a)/2$, hence the displayed $\kappa_a$. The estimate from the previous section becomes
+Put $b=2p-1$. The two local orbit states are $\rho_{\pm a}=(I+bZ\pm aX)/2$, in the Gram label basis, and $Z\rho_aZ=\rho_{-a}$. An $X$-basis measurement reads their phase through a binary symmetric channel with success probability $(1+a)/2$, hence the displayed $\kappa_a$. The estimate from the previous section becomes
 
 $$
 \mathbb E[D/n]\le

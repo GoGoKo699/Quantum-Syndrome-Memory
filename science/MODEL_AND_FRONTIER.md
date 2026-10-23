@@ -68,7 +68,8 @@ For $p=\Pr(X=0)\in(0,1)$ and $s=|\langle f_0|f_1\rangle|\in(0,1)$, choose phases
 
 $$
 a=2\sqrt{p(1-p)}s,\qquad
-\rho=\begin{pmatrix}p&a/2\\a/2&1-p\end{pmatrix},
+\rho=p|0\rangle\langle0|+(1-p)|1\rangle\langle1|
++\frac a2\bigl(|0\rangle\langle1|+|1\rangle\langle0|\bigr),
 \qquad
 C(a)=h_2\left(\frac{1+\sqrt{1-a^2}}2\right).
 $$
